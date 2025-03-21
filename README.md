@@ -1,22 +1,17 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vulputate pulvinar erat quis dapibus. Nam massa massa, commodo et sagittis vel, iaculis ut est. Vestibulum ut orci ut enim semper commodo id in quam. Suspendisse enim turpis, pharetra eu nisi et, euismod tempor dolor.
+Installation of Zentyal on Proxmox.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Requirements</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Proxmox VE installed</b> 
+- <b>Zentyal DE 8.0 ISO file (https://www.zentyal.com/community)</b>
 
-<h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
+<h2>Walk-through:</h2>
 
 <p align="center">
 Launch the utility: <br/>
