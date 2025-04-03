@@ -67,7 +67,7 @@ Click **Next** and then **Finish**.
    - Select language, location, and keyboard.
    - Partition disk.
    - Create admin user and hostname.
-   - Wait for installation to complete.
+   - Wait for installation to complete. (This will take considerable time, for mine, > 1 hr)
 ---
 ### **9. Initial Setup After Installation**
 
@@ -137,8 +137,8 @@ To double-check:
 
 Go to **Users and Computers > Manage**, and:
 
-- Create **new users** under the domain
-- Create **groups** as needed (e.g., `Admins`, `IT`, `HR`)
+- Create **new users** under the domain, Import from Roster.
+- Created **groups** (`Admins`, `G6`, `G1`, `SFAB North`, `SFAB South`)
 ---
 ### **6. Join a Windows Client to the Domain**
 1. On a Windows PC:
@@ -148,9 +148,9 @@ Go to **Users and Computers > Manage**, and:
 3. After a successful join, **reboot** the client.
 Set the **Windows PC's DNS server** to the **Zentyal server IP** before trying to join the domain. Otherwise, it won’t resolve domain names correctly.
 ---
-## Optional Next Steps
-- Enable **Roaming Profiles** or **Folder Redirection**
-- Set up **Group Policies** using RSAT on Windows
+##  Next Steps for Our Deployment
+- Enable **Roaming Profiles** and **Folder Redirection**
+- Set up **Group Policies** using RSAT on Windows (see Policy Lab entry)
 - Add **Shared Folders** under **File Sharing**
 - Configure **Backups** of AD data
 ---
